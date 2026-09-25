@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<head>
+  <title>UMAK Co-op | Campus essentials, made easier</title>
+  <link rel="stylesheet" href="../CSS files/Home.css" />
+</head>
+<body>
+<!-- ════════════════════════════════════════════════════════
+     NAVBAR
+════════════════════════════════════════════════════════ -->
+<header class="navbar">
+  <div class="navbar-inner">
+    <a href="Home.html" class="logo">
+      <div class="logo-circle">U</div>
+      <span class="logo-name">UMAK Co-op</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#home" class="nav-link active">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+        Home
+      </a>
+      <a href="../products.html" class="nav-link">Products</a>
+    </nav>
+    <div class="nav-right">
+      <button class="cart-btn" aria-label="Cart">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+         
+      </button>
+      <a class="btn-signin" href="Sign_in.html">Sign in</a>
+      <a class="btn-signup" href="Sign_up.html">Sign up</a>
+    </div>
+  </div>
+</header>
+
+<!-- ════════════════════════════════════════════════════════
+     HOME PAGE
+════════════════════════════════════════════════════════ -->
+<div id="home" class="page-section">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="search-bar">
+        <input type="text" placeholder="Search for products…" />
+        <button class="search-btn" aria-label="Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </button>
+      </div>
+      <h2 class="serif" >Your Campus Store, Now Online!</h2>
+      <p class="hero-sub">Uniforms, lanyards, togas, supplies and more — delivered to you affordably and quickly.</p>
+      
+    </div>
+  </section>
+
+  <!-- Shop by Category -->
+  <div class="max-w">
+    <div class="section">
+      <h2 class="section-title serif">Shop by Category</h2>
+      <p class="section-sub">Everything you need for your academic journey</p>
+      <div class="categories-grid">
+        <!-- Uniform Card -->
+        <a href="uniforms.html" class="cat-card">
+            <span class="cat-icon">👔</span>
+            <span class="cat-name">Uniform</span>
+            <span class="cat-dept">CCIS / CCAPS / SOL / CTHM</span>
+        </a>
+
+        <!-- Lanyard Card -->
+        <a href="lanyards.html" class="cat-card">
+            <span class="cat-icon">🎗️</span>
+            <span class="cat-name">Lanyard</span>
+            <span class="cat-dept">All Departments</span>
+        </a>
+
+        <!-- Academic Toga Card -->
+        <a href="toga.html" class="cat-card">
+            <span class="cat-icon">🎓</span>
+            <span class="cat-name">Academic Toga</span>
+            <span class="cat-dept">Graduating Students</span>
+        </a>
+
+        <!-- School Supplies Card -->
+        <a href="supplies.html" class="cat-card">
+            <span class="cat-icon">📚</span>
+            <span class="cat-name">School Supplies</span>
+            <span class="cat-dept">All Departments</span>
+        </a>
+
+        <!-- Merchandise Card -->
+        <a href="merchandise.html" class="cat-card">
+            <span class="cat-icon">🛍️</span>
+            <span class="cat-name">Merchandise</span>
+            <span class="cat-dept">General</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Featured Products -->
+    <div class="section" style="padding-top: 1;">
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:24px;">
+        <div>
+          <h2 class="section-title serif">Featured Products</h2>
+          <p class="section-sub" style="margin-bottom:0;">Top picks from UMAK Co-op</p>
+        </div>
+        <a href="../products.html" style="font-size:14px; font-weight:500; color:var(--navy); display:flex; align-items:center; gap:4px; text-decoration:none;">
+          View all
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+      </div>
+      <div class="products-grid">
+        <!-- Card 1 -->
+        <div class="product-card">
+          <div class="product-img">
+            <img src="../images/ccis.jpg" alt="tag name" />
+            <span class="product-badge">CCIS</span>
+          </div>
+          <div class="product-body">
+            <div class="product-name">CCIS Uniform (Polo)</div>
+            <div class="stars">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+              <span class="review-count">(32)</span>
+            </div>
+            <div class="product-footer">
+              <span class="product-price">₱450</span>
+              <div class="product-actions">
+                <a class="btn-view" href="../product.html">View</a>
+                <button class="btn-cart-sm">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="product-card">
+          <div class="product-img">
+            <img src="../images/lanyard.png" alt="tag name" />
+            <span class="product-badge">CCIS</span>
+          </div>
+          <div class="product-body">
+            <div class="product-name">CCIS ID Lanyard</div>
+            <div class="stars">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star" style="color:var(--gray-200)">★</span>
+              <span class="review-count">(84)</span>
+            </div>
+            <div class="product-footer">
+              <span class="product-price">₱120</span>
+              <div class="product-actions">
+                <a class="btn-view" href="../product.html">View</a>
+                <button class="btn-cart-sm">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="product-card">
+          <div class="product-img">
+            <img src="../images/uniform (F).jpg" alt="tag name" />
+            <span class="product-badge">Uniform</span>
+          </div>
+          <div class="product-body">
+            <div class="product-name">UMAK Uniform (Female)</div>
+            <div class="stars">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+              <span class="review-count">(97)</span>
+            </div>
+            <div class="product-footer">
+              <span class="product-price">₱350</span>
+              <div class="product-actions">
+                <a class="btn-view" href="../product.html">View</a>
+                <button class="btn-cart-sm">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="product-card">
+          <div class="product-img">
+            <img src="../images/yellow_pad.jpg" alt="tag name" />
+            <span class="product-badge">Yellow Pad</span>
+          </div>
+          <div class="product-body">
+            <div class="product-name">UMAK Yellow Pad</div>
+            <div class="stars">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star" style="color:var(--gray-200)">★</span>
+              <span class="review-count">(83)</span>
+            </div>
+            <div class="product-footer">
+              <span class="product-price">₱50</span>
+              <div class="product-actions">
+                <a class="btn-view" href="../product.html">View</a>
+                <button class="btn-cart-sm">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mission / Vision -->
+  <section class="about-section">
+    <div class="about-grid">
+      <div>
+        <p class="about-eyebrow">Our Mission</p>
+        <h2 class="about-title serif">Ease and Convenience for Every Student</h2>
+        <p class="about-text">The UMAK Co-op mission is to provide ease and convenience to customers — making academic essentials accessible to every member of our university community, at prices that don't create barriers.</p>
+      </div>
+      <div>
+        <p class="about-eyebrow">Our Vision</p>
+        <h2 class="about-title serif">Premier Student-Centered Digital Ecosystem</h2>
+        <p class="about-text">To be the premier student-centered digital ecosystem that removes financial barriers to academic success by delivering affordable, high-quality course essentials instantly to every member of our university community.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px;">
+          <div class="logo-circle">U</div>
+          <span>UMAK Co-op</span>
+        </div>
+        <p class="footer-desc">The premier student-centered platform for affordable academic essentials at the University of Makati.</p>
+      </div>
+      <div>
+        <h3 class="footer-heading">Contact Us</h3>
+        <ul class="footer-contact">
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.1a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.26h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.71 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l.97-.97a2 2 0 0 1 2.11-.45c.91.35 1.85.58 2.81.71A2 2 0 0 1 22 16.92z"/></svg>
+            63+ 9232456189
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            support@gmail.com
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            63+ 9348294157
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer-heading">Follow Us</h3>
+        <div class="social-btns">
+          <button class="social-btn" aria-label="Facebook">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </button>
+          <button class="social-btn" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </button>
+        </div>
+        <p class="footer-handle">@UMAK.Co-op &bull; @UMAK_Co-op</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 UMAK Co-op. All rights reserved.</div>
+  </footer>
+</div>
+
+<div class="divider"></div>
+
+</body>
+</html>

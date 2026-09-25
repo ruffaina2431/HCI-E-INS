@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Create an account | UMAK Co-op</title>
+  <link href="../CSS files/Sign_up.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="home.html" aria-label="UMAK Co-op home">
+      <span class="brand-mark">U</span>
+      <span>UMAK Co-op</span>
+    </a>
+  </header>
+
+  <main class="signup-layout">
+    <section class="signup-intro" aria-labelledby="page-title">
+      <p class="eyebrow">Join the community</p>
+      <h1 id="page-title">Your ultimate campus essentials hub.</h1>
+      <p class="intro-copy">Create your UMAK Co-op account to make school essentials easier to find, order, and enjoy.</p>
+      <ul class="benefit-list">
+        <li>Shop uniforms and academic essentials</li>
+        <li>Keep your orders organized</li>
+        <li>Get a smoother campus-store experience</li>
+      </ul>
+    </section>
+
+    <section class="signup-card" aria-labelledby="signup-title">
+      <div class="card-heading">
+        <div>
+          <p class="step-label">Create account</p>
+          <h2 id="signup-title">Let’s get you set up.</h2>
+        </div>
+        <span class="card-dot" aria-hidden="true"></span>
+      </div>
+
+      <form class="signup-form" action="#" method="post">
+        <div class="form-grid-2">
+          <div class="form-group">
+            <label class="form-label" for="first-name">First name</label>
+            <input class="form-input" id="first-name" name="firstName" type="text" placeholder="Maria" autocomplete="given-name" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="middle-name">Middle name</label>
+            <input class="form-input" id="middle-name" name="middleName" type="text" placeholder="Optional" autocomplete="additional-name" />
+          </div>
+        </div>
+
+        <div class="form-grid-2">
+          <div class="form-group">
+            <label class="form-label" for="last-name">Last name</label>
+            <input class="form-input" id="last-name" name="lastName" type="text" placeholder="Santos" autocomplete="family-name" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="extension">Extension</label>
+            <input class="form-input" id="extension" name="extension" type="text" placeholder="Jr., Sr., III" />
+          </div>
+        </div>
+
+        <div class="form-divider" aria-hidden="true"></div>
+
+        <div class="form-group">
+          <label class="form-label" for="contact-number">Contact number</label>
+          <input class="form-input" id="contact-number" name="contactNumber" type="tel" placeholder="+63 9XX XXX XXXX" autocomplete="tel" required />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="email">Gmail account</label>
+          <input class="form-input" id="email" name="email" type="email" placeholder="you@gmail.com" autocomplete="email" required />
+        </div>
+
+        <div class="form-grid-2">
+          <div class="form-group">
+            <label class="form-label" for="password">Password</label>
+            <input class="form-input" id="password" name="password" type="password" placeholder="Create a password" autocomplete="new-password" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="confirm-password">Confirm password</label>
+            <input class="form-input" id="confirm-password" name="confirmPassword" type="password" placeholder="Repeat password" autocomplete="new-password" required />
+          </div>
+        </div>
+
+        <p class="password-note">Use at least 8 characters for a stronger password.</p>
+       
+        <button class="submit-button" type="submit">Create account <span aria-hidden="true">→</span></button>
+        
+      </form>
+
+      <p class="auth-link-row">Already have an account? <a class="auth-link" href="Sign_in.html">Sign in</a></p>
+    </section>
+  </main>
+</body>
+</html>
